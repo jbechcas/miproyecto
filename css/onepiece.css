@@ -258,16 +258,16 @@ footer img {
 /* Diseño Responsivo */
 @media only screen and (max-width: 1200px) {
     .gallery-image img {
-        height: 270;
+        height: 180px;
         width: 320px;
     }
     
     .img-box {
-        height: 270px;
+        height: 180px;
         width: 320px;
     }
     .transparent-box {
-        height: 270px;
+        height: 180px;
         width: 320px;
     }
 }
