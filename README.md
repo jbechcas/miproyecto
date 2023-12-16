@@ -27,3 +27,5 @@
   <li>Wallpapers</li>
   <li>Footer</li>
 </ul>
+<p>Imágenes obtenidas de: https://alphacoders.com</p>
+<p>fuentes obtenidas de: https://www.1001fonts.com</p>
