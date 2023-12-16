@@ -9,13 +9,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="wrapper"> 
+    <div id="wrapper">
+        <div id="barra">
+            <nav>
+                
+                    <a href="./index.html">Inicio</a>  <!--Mi página Home -->
+                    <a href="#apartado2">Personajes</a>  <!--Nos llevará a otra página html en la que tendremos las ultimas noticias sobre el estado del anime,manga y su creador-->
+                    <a href="#apartado3">Arcos</a>    <!--Podremos Visualizar distintos mangas, cada uno tendrá una preview con la portada-->
+                    <a href="#apartado4">Wallpapers</a>  <!--En este aparatado podremos ver distintas figuras con sus respectivos precios-->
+                    <a href="https://www.banpresto.es/figuras-one-piece/" target="_blank">Figuras</a></li>
+                    <a href="https://mangaplus.shueisha.co.jp/titles/200016" target="_blank">Manga</a></li>
+                
+            </nav>
+        </div>
         <nav>
-            <a href="./index.html">Inicio</a>  <!--Mi página Home -->
-            <a href="#Noticias">Noticias</a>  <!--Nos llevará a otra página html en la que tendremos las ultimas noticias sobre el estado del anime,manga y su creador-->
-            <a href="#Mangas">Mangas</a>    <!--Podremos Visualizar distintos mangas, cada uno tendrá una preview con la portada-->
-            <a href="#Figuras">Figuras</a>  <!--En este aparatado podremos ver distintas figuras con sus respectivos precios-->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" id="cerrar" onclick="closeNav()">&times;</a>
+                <br>
+                <a href="./index.html">Inicio</a>  <!--Mi página Home -->
+                <a href="#apartado2">Personajes</a>  <!--Nos llevará a otra página html en la que tendremos las ultimas noticias sobre el estado del anime,manga y su creador-->
+                <a href="#apartado3">Arcos</a>    <!--Podremos Visualizar distintos mangas, cada uno tendrá una preview con la portada-->
+                <a href="#apartado4">Wallpapers</a>  <!--En este aparatado podremos ver distintas figuras con sus respectivos precios-->
+                <a href="https://www.banpresto.es/figuras-one-piece/" target="_blank">Figuras</a></li>
+                <a href="https://mangaplus.shueisha.co.jp/titles/200016" target="_blank">Manga</a></li>
+            </div>
         </nav>
+        <!-- Botón hamburguesa para abrir el menú lateral -->
+        <span id="hamburguesa" onclick="openNav()">&#9776;</span>
 
     <section id="hero">
         <a href="#apartado1">
@@ -128,8 +148,106 @@
         <div class="fondotitulo">
             <h2>ARCOS</h2>
         </div>
-        <p>
-            -Aqui podremos ver los arcos más icónicos (temporadas) del anime, con un pequeño resumen y una imagen del lugar donde ocurren los hechos.
+        <div class="grid-3">
+            <div class="col-3">
+                <h3>ARABASTA</h3>
+                <img src="./img/Arcos/Arabasta.png">
+                <br>
+                <p>
+                    Luffy y su tripulación ayudan a la Princesa Vivi a salvar su reino del malvado Crocodile y su organización Baroque Works en el desierto de Arabasta.
+                </p>
+                <br>
+            </div>
+            <div class="col-3">
+                <h3>EAST-BLUE</h3>
+                <img src="./img/Arcos/EastBlue.jpg" alt="">
+                <br>
+                <p>
+                    Es donde comienza la historia. Luffy reúne a su tripulación y se enfrenta a varios enemigos mientras navegan por los mares del East Blue.
+                </p>
+                <br>
+            </div>
+            <div class="col-3">
+                <h3>THRILLER-BARK</h3>
+                <img src="./img/Arcos/Thriller Bark.jpg" alt="">
+                <br>
+                <p>
+                    Luffy y sus amigos llegan a una isla fantasmagórica controlada por el poderoso Moria y su ejército de zombis. Se enfrentan a criaturas aterradoras y deben rescatar a un amigo.
+                </p>
+                <br>
+            </div>
+            <div class="col-3">
+                <h3>WANO</h3>
+                <img src="./img/Arcos/Wano.jpg" alt="">
+                <br>
+                <p>
+                    Luffy y la tripulación entran en un país feudal controlado por un tirano llamado Kaido. Buscan liberar a Wano y derrotar a Kaido y sus aliados.
+                </p>
+                <br>
+            </div>
+            <div class="col-3">
+                <h3>WHOLE CAKE</h3>
+                <img src="./img/Arcos/Whole-Cake.jpg" alt="">
+                <br>
+                <p>
+                    Luffy intenta rescatar a Sanji de un matrimonio forzado con la familia Charlotte en la isla Whole Cake. Enfrentan a la poderosa Big Mom.
+                </p>
+                <br>
+            </div>
+            <div class="col-3">
+                <h3>DRESSROSA</h3>
+                <img src="./img/Arcos/dressrosa.jpg" alt="">
+                <br>
+                <p>
+                    Luffy y su tripulación ayudan a derrocar al malvado Doflamingo, quien controla Dressrosa y esconde oscuros secretos.
+                </p>
+                <br>
+            </div>
+    </section>
+    <section id="apartado4" class="apartado">
+        <div class="fondotitulo">
+            <h2>WALLPAPERS</h2>
+        </div>
+        <br>
+        <br>    
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="./img/Wallpapers/wallpaper1.jpeg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="./img/Wallpapers/wallpaper2.jpeg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="./img/Wallpapers/wallpaper3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="./img/Wallpapers/wallpaper4.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="./img/Wallpapers/wallpaper5.jpeg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
     </section>
     <footer>
         <div class="colum">
@@ -169,28 +287,39 @@
                     <a href="index.html">
                         <li>Inicio</li>
                     </a>
-                    <a href="#Noticias">
-                        <li>Noticias</li>
+                    <a href="#apartado2">
+                        <li>Personajes</li>
                     </a>
-                    <a href="#Mangas">
-                        <li>Mangas</li>
+                    <a href="#apartado3">
+                        <li>Arcos</li>
                     </a>
-                    <a href="#Figuras">
+                    <a href="#apartado4">
+                        <li>Wallpapers</li>
+                    </a>
+                    <a href="https://www.banpresto.es/figuras-one-piece/" target="_blank">
                         <li>Figuras</li>
+                    </a>
+                    <a href="https://mangaplus.shueisha.co.jp/titles/200016" target="_blank">
+                        <li>Manga</li>
                     </a>
                 </ul>
             </div>
             
-            <div>
+            <div id="creditos">
                 <p>Pagina web realizada por:
                 <p>Jorge Bech Castillo</p>
                 <p>Lenguajes de Marca</p>
                 <p>1ºDAM</p>
-                <ul>
-                    <a href="#Disclaimer">
-                        <li>DISCLAIMER</li>
-                    </a>
-                </ul>
+                <br>
+                <button id="myBtn">DISCLAIMER</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>
+                                This page is a class work of a Higher Degree in Multiplatform Application Development, specifically of the subject markup language, all rights are reserved by the official author of the manga and the various distributors of the same and the anime.
+                            </p>
+                        </div>
                 </div>
             </div>
             
@@ -199,6 +328,8 @@
     </footer>
     
     </div>
+    
 </body>
+<script src="./js/onepiece.js"></script>
 </html>
 
