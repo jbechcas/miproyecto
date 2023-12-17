@@ -29,9 +29,8 @@
 </ul>
 <h3>Hero Section</h3>
 <img src="./bm-readme/hero.png" alt="imagen de hero section" style="width:50%">
-<p>He utilizado una imagen de fondo tomada de .... que se adapta fácilmente a diferentes dispositivos....<br>
-Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
-(una breve explicación)</p>
+<p>He utilizado una imagen de buena calidad que hace.<br>
+buen contraste con los colores<br></p>
 
 <h3>Introducción</h3>
 <img src="./bm-readme/introduccion.png" alt="imagen de introduccion" style="width:50%">
