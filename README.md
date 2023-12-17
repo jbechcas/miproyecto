@@ -69,7 +69,7 @@
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools</li>
+  <li>Disclaimer-modal</li>
   <li>Slider:tomada de w3Schools</li>
   <li>Card-gallery</li>
 </ul>
