@@ -86,6 +86,10 @@ section p {
     background-position: center;
     height: 100vh;
 }
+#hero button{
+    font-family: titulo;
+    font-size: 2em;
+}
 
 /*..............Estilos del Pie de Página.........*/
 #redes-sociales a {
