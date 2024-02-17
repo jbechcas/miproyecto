@@ -63,7 +63,7 @@
   <li>https://www.1001fonts.com</li>
 </ul>
 <h3>Imágenes</h3>
-<p>Imágenes obteniadas de: https://alphacoders.com</p>
+<p>Imágenes obtenidas de: https://alphacoders.com</p>
 <h3>Videos</h3>
 <p>Videos obtenidos de: https://www.youtube.com/@onepieceofficial</p>
 <h2 id="snippets">Code snippets</h2>
